@@ -10,7 +10,8 @@ namespace Ejemplo1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola Mundo");
+            string a = Console.ReadLine();
+            Console.WriteLine("Hola {0}", a);
             Console.ReadLine();
         }
     }
